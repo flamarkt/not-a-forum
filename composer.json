@@ -1,0 +1,40 @@
+{
+    "name": "flamarkt/not-a-forum",
+    "description": "Hide forum UI elements",
+    "keywords": [
+        "flarum",
+        "hide"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Flamarkt",
+            "homepage": "https://flamarkt.org/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flamarkt/not-a-forum/issues",
+        "source": "https://github.com/flamarkt/not-a-forum"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Not A Forum",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-mask",
+                "backgroundColor": "#266a13",
+                "color": "#fff"
+            },
+            "optional-dependencies": [
+                "flamarkt/core"
+            ]
+        },
+        "flamarkt-backoffice": {
+            "showInBackoffice": true
+        }
+    }
+}
